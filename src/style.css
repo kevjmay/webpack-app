@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.9);
+    height: 3rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+li {
+    list-style: none;
+    color: whitesmoke;
+}
+
+.hero-image {
+    height: 100vh;
+    width: 100vw;
+}
+
+.welcome-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 8px;
+    border: 2px solid black;
+    align-content: center;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+}
