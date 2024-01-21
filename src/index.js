@@ -1,12 +1,8 @@
 import './style.css';
-import createNav from './nav-bar';
-import createHome from './home-page';
+import initialLoad from './pageLoad';
+import switchTab from './tabs';
 
-const initialLoad = () => {
-    createNav();
-    createHome();
-}
-
-initialLoad()
+initialLoad();
+switchTab();
 
 console.log('Hello Worlds!');

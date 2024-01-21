@@ -2,6 +2,7 @@ const createHome = () => {
 
     const content = document.querySelector('#content');
     const pageContent = document.createElement('div');
+    pageContent.id = 'pageContent';
     pageContent.classList.add('welcome-content');
     pageContent.innerHTML = `
     

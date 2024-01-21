@@ -57,3 +57,13 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+.grid {
+    display: grid;
+    justify-items: start;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10vw 30vw 10vw;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
